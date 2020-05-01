@@ -1,0 +1,181 @@
+/* General */
+#title{
+  background-color: #ff4c68
+}
+body{
+  font-family: "Montserrat";
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+h1 {
+font-family: 'Montserrat';
+font-weight: 900;
+font-size: 3.2rem;
+color: #fff;
+line-height: 1.5;
+
+}
+h2{
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding-top: 5%;
+}
+
+
+button {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* NavBar */
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.8rem;
+  padding-bottom:4.5rem;
+  font-weight: 400;
+
+}
+.Navigation{
+  padding-left: 0;
+}
+
+
+.nav-item {
+  padding: 0 18px;
+  margin-bottom: 50px;
+}
+
+.nav-link{
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size:1.2rem;
+}
+
+/* Download Buttons */
+.Download{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+  width: 52%;
+  transform: rotate(25deg);
+}
+/* features */
+.Circle{
+  color: #ef8172;
+}
+.Circle:hover{
+  color: #ff4c68;
+}
+.Bulls {
+  color: #ef8172;
+
+}
+.Bulls:hover{
+  color:#ff4c68;
+}
+.Heart {
+  color: #ef8172;
+
+}
+.Heart:hover{
+  color: #ff4c68;
+}
+
+.Para{
+  font-family:'Ubuntu', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  color: #8f8f8f;
+
+}
+.Feat {
+  text-align: center;
+}
+.Icon1{
+   Padding-bottom: 7%;
+}
+.Icon2{
+  Padding-bottom: 7%;
+
+}
+.Icon3{
+  Padding-bottom: 7%;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+/* Testimonials */
+#testimonials{
+text-align: center;
+background-color: #ef8172;
+color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-image{
+width: 10.4%;
+border-radius: 100%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.certified{
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.pricing-button {
+border-color: #ef8172;
+color: #ef8172;
+}
+.pricing-button:hover{
+  color: #ff4c68;
+
+}
+.pricing-button2{
+  border-color: #ef8172;
+  color: #fff;
+  background-color: #ef8172;
+}
+.pricing-button2:hover{
+  color: #ff4c68;
+}
+/* Positioning */
+#title {
+  z-index: -1;
+  position: relative
+}
+#features{
+  z-index: 1;
+  position: relative;
+  top: 200px;
+
+
+}
